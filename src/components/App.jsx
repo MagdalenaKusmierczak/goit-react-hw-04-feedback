@@ -18,13 +18,12 @@ const App = () => {
       case 'good':
         setGood(good + 1);
         break;
-      case 'neutral':
-        setNeutral(neutral + 1);
-        break;
       case 'bad':
         setBad(bad + 1);
         break;
-
+      case 'neutral':
+        setNeutral(neutral + 1);
+        break;
       default:
         break;
     }
